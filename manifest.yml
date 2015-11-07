@@ -5,8 +5,8 @@ declared-services:
     plan: standard
 applications:
 - services:
-  - text-to-speech-service-wtw
-  name: text-to-speech-demo
+  - text-to-speech-service
+  name: text-to-speech-wtw
   path: .
   memory: 768M
   env:
